@@ -15,6 +15,31 @@ A data-driven inventory optimization project focused on determining optimal reor
 - SQL (CTEs, Window Functions, Views, Stored Procedures, Triggers)
 
 ## Repository Structure
+inventory-optimization-reorder-system-sql/
+│
+├── data/
+│   ├── raw/                           # Original dataset before cleaning (if included)
+│   └── processed/                     # Final cleaned dataset exported from SQL
+│
+├── sql/
+│   ├── 01_schema_and_tables.sql       # Schema creation, table setup, and renaming
+│   ├── 02_data_cleaning.sql           # Data type fixes, date standardization, duplicates removal
+│   ├── 03_data_integration.sql        # Views combining sales, product, and inventory data
+│   ├── 04_inventory_analysis.sql      # Exploratory analysis of demand and stock behavior
+│   ├── 05_reorder_point_logic.sql     # Reorder point, lead time demand, and safety stock logic
+│   └── 06_automation_procedures.sql   # Stored procedures and triggers for automation
+│
+├── results/
+│   ├── inventory_vs_sales_pressure.csv   # Compares inventory levels against sales velocity
+│   ├── low_stock_frequency.csv            # Products frequently operating at low or zero stock
+│   └── reorder_points.csv                 # Final recommended reorder points per product
+│
+├── docs/
+│   ├── data_description.md              # Explanation of datasets, fields, and assumptions
+│   └── project_overview.md              # Business context, methodology, and summary insights
+│
+└── README.md                             # Main project documentation
+
 
 ## Key Analytical Outputs
 - Reorder points per product based on recent demand trends
