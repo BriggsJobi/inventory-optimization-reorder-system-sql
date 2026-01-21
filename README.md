@@ -15,10 +15,12 @@ A data-driven inventory optimization project focused on determining optimal reor
 - SQL (CTEs, Window Functions, Views, Stored Procedures, Triggers)
 
 ## Repository Structure
+
+```text
 inventory-optimization-reorder-system-sql/
 │
 ├── data/
-│   ├── raw/                           # Original dataset before cleaning (if included)
+│   ├── raw/                           # Original dataset before cleaning 
 │   └── processed/                     # Final cleaned dataset exported from SQL
 │
 ├── sql/
@@ -39,6 +41,8 @@ inventory-optimization-reorder-system-sql/
 │   └── project_overview.md              # Business context, methodology, and summary insights
 │
 └── README.md                             # Main project documentation
+```
+
 
 
 ## Key Analytical Outputs
