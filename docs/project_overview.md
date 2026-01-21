@@ -22,3 +22,9 @@ The final solution provides:
 - Comparison of inventory value against sales velocity to highlight overstock or understock tendencies
 
 These outputs can support more informed purchasing and replenishment decisions in a real-world retail environment.
+
+## Business Impact (Potential)
+- Reduced stockout risk through data-driven reorder point calculations  
+- Improved cash flow by minimizing excess inventory and holding costs  
+- More predictable and efficient replenishment planning based on demand trends  
+
